@@ -203,6 +203,7 @@ rsp = client.search(
 
 print(json.dumps(rsp, indent=2))
 print("Plain ol Apple")
+
 # Do fine Apple as a common noun
 q = 'apple#__NN__'
 query = {
@@ -240,7 +241,6 @@ rsp = client.search(
 )
 
 print(json.dumps(rsp, indent=2))
-
 
 # Should return no match
 query = {
